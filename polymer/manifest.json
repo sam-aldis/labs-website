@@ -1,7 +1,0 @@
-{
-  "name": "labs-website",
-  "short_name": "labs-website",
-  "description": "ukpjp-labs website application",
-  "start_url": "/",
-  "display": "standalone"
-}
