@@ -4,7 +4,8 @@ title : ukjp-labs
 contact : [email, facebook, orcid, github]
 ---
 
-<img src="src/ukjp-labs.img" />
+<img src="src/ukjp-labs.jpg
+" />
 
 
 
