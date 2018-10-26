@@ -1,5 +1,5 @@
 import Application, { DOMBuilder, RuntimeCompilerLoader, SyncRenderer } from '@glimmer/application';
-import Resolver, { BasicModuleRegistry } from '@glimmer/resolver';
+import { Resolver, BasicModuleRegistry } from '@glimmer/resolver';
 import moduleMap from '../config/module-map';
 import resolverConfiguration from '../config/resolver-configuration';
 
