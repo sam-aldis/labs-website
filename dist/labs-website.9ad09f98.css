@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url("construction.e0fb45fa.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3d84a8;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  body {
+    background-image: url("construction.mobile.9d19ad7e.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #63adc6;
+  }
+}
+
+.holder {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: table;
+}
+
+.content {
+  display: table-cell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, 0.5);
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+  .content {
+    width: 80%;
+    height: 90%;
+    max-height: 450px;
+  }
+  .content p {
+    font-weight: 700;
+    font-size: 3vmax;
+    font-style: bold;
+    text-overflow: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    width: 80%;
+    height: 90%;
+  }
+  .content p {
+    font-weight: 700;
+    font-size: 2vmax;
+    font-style: bold;
+    text-overflow: wrap;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    max-width: 300px;
+    max-height: 150px;
+  }
+  .content p {
+    font-weight: 700;
+    font-size: 3vmin;
+  }
+}
